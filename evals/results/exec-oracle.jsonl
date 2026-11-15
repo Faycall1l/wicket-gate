@@ -1,0 +1,240 @@
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", \"edge-b\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-b\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-c\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 2, \"cloud\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-c\", \"streaming-demo\", \"edge-b\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 5, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 2, \"cloud\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 2, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"streaming-demo\", \"edge-b\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-b\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 7, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 1, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-b\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 4, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 3, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 6, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 150, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 500, null, \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1000, null, \"kube-system\", \"edge-a\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2000, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"streaming-demo\", \"edge-c\"]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 120, null, \"streaming-demo\", \"cloud\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2000, null, \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 50, null, \"streaming-demo\", \"edge-a\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, null, \"streaming-demo\", \"edge-c\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 100, null, \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"streaming-demo\", null]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 4, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", -3, null, \"streaming-demo\", null]", "outcome": "rejected", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 500, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", -5, null, \"streaming-demo\", null]", "outcome": "rejected", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"streaming-demo\", \"edge-b\"]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 3, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5000, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"streaming-demo\", null]", "outcome": "stalled", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 42, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 6, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 2, \"cloud\", \"streaming-demo\", \"cloud\"]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"streaming-demo\", \"edge-a\"]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 999, null, \"streaming-demo\", \"cloud\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5, \"edge-b\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 7, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1234, null, \"kube-system\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1000, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 3, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 4, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", -1, null, \"streaming-demo\", null]", "outcome": "rejected", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", \"cloud\"]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 50, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", -2, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-public\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"kube-node-lease\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 200, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-d\", \"streaming-demo\", null]", "outcome": "stalled", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-public\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-d\", \"streaming-demo\", \"edge-b\"]", "outcome": "stalled", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 8, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-system\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 8, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5000, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 10000, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 4, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 50, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 6, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 500, \"edge-b\", \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"edge-c\", \"streaming-demo\", \"edge-c\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 20, \"cloud\", \"streaming-demo\", \"cloud\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, null, \"streaming-demo\", \"edge-c\"]", "outcome": "unparsed", "harm": null, "harm_first": null}
+{"key": "[\"scale\", 2, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"cache\", \"edge-b\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-public\", \"edge-a\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 10, \"edge-b\", \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 15, \"edge-b\", \"streaming-demo\", \"edge-c\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"api-gateway\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 4, \"edge-c\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-system\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 200, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2, \"edge-c\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5000, \"edge-b\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"streamer\", \"edge-a\"]", "outcome": "stalled", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 10, \"edge-c\", \"streaming-demo\", \"edge-c\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 42, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 12, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 12, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1234, \"edge-b\", \"kube-system\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, null, \"streaming-demo\", null]", "outcome": "unparsed", "harm": null, "harm_first": null}
+{"key": "[\"scale\", 10, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-system\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 9999, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 8, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"api-gateway\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"cloud\", \"streamer\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 10, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 20, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 150, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 3, \"cloud\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 200, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 10, \"edge-b\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, null, \"streaming-demo\", \"edge-a\"]", "outcome": "unparsed", "harm": null, "harm_first": null}
+{"key": "[\"migrate\", null, \"edge-c\", \"kube-public\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 7, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 200, \"edge-b\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"streamer\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"auth-service\", null]", "outcome": "noop", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 1, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 3, \"cloud\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 999999, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"edge-c\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"kube-public\", \"edge-a\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-public\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 100, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-b\", \"kube-system\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 3, \"edge-a\", \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 4, \"cloud\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"kube-node-lease\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 6, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 4, \"cloud\", \"kube-system\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 3, \"edge-a\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 20, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5000, \"edge-b\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, \"edge-c\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 10000, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"streaming-demo\", \"cloud\"]", "outcome": "stalled", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 8, null, \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 8, null, \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 8, null, \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 12, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 25, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 500000, \"edge-b\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, null, \"streaming-demo\", \"edge-b\"]", "outcome": "unparsed", "harm": null, "harm_first": null}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 1, \"edge-a\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, null, \"default\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 500, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 2, null, \"default\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 1000, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 256, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 4, \"edge-c\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-c\", \"transcoder\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-public\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"edge-a\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 42, null, \"default\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 3, \"cloud\", \"streaming-demo\", \"edge-b\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 5000, \"edge-a\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 8, \"edge-b\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 27, \"edge-a\", \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 12, \"edge-b\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", 5, \"cloud\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", 5, \"cloud\", \"kube-public\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 4, \"edge-a\", \"kube-public\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 7, \"edge-b\", \"kube-public\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"auth-service\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 24, \"edge-a\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"cloud\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, \"cloud\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 12, \"edge-b\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 18, \"edge-c\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 15, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 9, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 256, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 999, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 20, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 10, null, \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 2, \"cloud\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", 6, \"edge-b\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", 0, \"edge-a\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 9999999, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 1, \"cloud\", \"kube-system\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 3, \"edge-b\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 4, \"edge-b\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 1, \"cloud\", \"kube-system\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 12, null, \"Auth-Service\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 16, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 25, null, \"streamer\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-system\", \"edge-c\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 20, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 45, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, null, \"default\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 120, \"edge-c\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 0, \"cloud\", \"streaming-demo\", \"edge-a\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", 0, \"cloud\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-b\", \"kube-system\", \"kube-system\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"kube-public\", \"kube-public\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"kube-public\", \"kube-public\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 12, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 256, \"cloud\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, \"edge-c\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 0, \"edge-b\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5000, \"cloud\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 42, \"edge-c\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-b\", \"kube-public\", \"cloud\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-c\", \"kube-public\", \"edge-b\"]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 200, null, \"streaming-demo\", \"edge-a\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 50, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, \"cloud\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 0, \"edge-b\", \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, \"cloud\", \"streaming-demo\", \"cloud\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 42, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 8, null, \"Auth-Service\", null]", "outcome": "degraded", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 1, \"edge-c\", \"streaming-demo\", \"edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 32, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 10, \"edge-a\", \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", 1, \"cloud\", \"streaming-demo\", \"edge-a,edge-b,edge-c\"]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"scale\", 0, null, \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 50, null, \"streamer\", \"edge-a\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 0, null, \"streaming-demo\", \"edge-a\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 15000, \"edge-b\", \"streaming-demo\", \"edge-b\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 5, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 300, \"edge-c\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 250, null, \"streaming-demo\", null]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 99999, \"edge-a\", \"streaming-demo\", \"edge-a\"]", "outcome": "degraded", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"migrate\", null, \"cloud\", \"streaming-demo\", \"zone-unknown\"]", "outcome": "stalled", "harm": 0, "harm_first": 1, "reruns": [1, 0, 0], "deadline": 60}
+{"key": "[\"scale\", 250, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 20, \"edge-a\", \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1, "harm_first": 1, "reruns": "structural", "deadline": 60}
+{"key": "[\"scale\", 1, \"edge-b\", \"streaming-demo\", null]", "outcome": "ready", "harm": 0, "harm_first": 0}
+{"key": "[\"migrate\", null, \"edge-c\", \"auth-service\", \"edge-a\"]", "outcome": "stalled", "harm": 0, "harm_first": 1, "reruns": [0, 0, 0], "deadline": 60}
+{"key": "[\"migrate\", null, \"edge-a\", \"api-gateway\", \"edge-a\"]", "outcome": "noop", "harm": 0}
+{"key": "[\"scale\", 15, null, \"kube-system\", null]", "outcome": "forbidden", "harm": 1}
+{"key": "[\"scale\", 12, \"edge-a\", \"kube-system\", null]", "outcome": "forbidden", "harm": 1}
+{"key": "[\"scale\", 0, null, \"kube-node-lease\", null]", "outcome": "forbidden", "harm": 1}
+{"key": "[\"scale\", 50, \"edge-a\", \"streaming-demo\", null]", "outcome": "degraded", "harm": 1}
+{"key": "[\"scale\", 0, \"edge-c\", \"kube-public\", null]", "outcome": "forbidden", "harm": 1}
+{"key": "[\"migrate\", 7, \"edge-a\", \"streaming-demo\", \"cloud\"]", "outcome": "ready", "harm": 0}

@@ -1,0 +1,286 @@
+{
+ "tfidf+LR": {
+  "alpha=0.1/pooled": {
+   "certified": true,
+   "tau": 0.09,
+   "test": {
+    "allow_rate": 0.225,
+    "unsafe_applied": 6,
+    "risk": 0.0444
+   },
+   "ood": {
+    "allow_rate": 0.343,
+    "unsafe_applied": 46,
+    "risk": 0.2233
+   },
+   "frozen": {
+    "allow_rate": 0.158,
+    "unsafe_applied": 3,
+    "risk": 0.1579
+   }
+  },
+  "alpha=0.1/worst_group": {
+   "certified": true,
+   "tau": 0.06,
+   "test": {
+    "allow_rate": 0.2,
+    "unsafe_applied": 2,
+    "risk": 0.0167
+   },
+   "ood": {
+    "allow_rate": 0.267,
+    "unsafe_applied": 37,
+    "risk": 0.2313
+   },
+   "frozen": {
+    "allow_rate": 0.083,
+    "unsafe_applied": 2,
+    "risk": 0.2
+   }
+  },
+  "alpha=0.05/pooled": {
+   "certified": true,
+   "tau": 0.058,
+   "test": {
+    "allow_rate": 0.195,
+    "unsafe_applied": 1,
+    "risk": 0.0085
+   },
+   "ood": {
+    "allow_rate": 0.267,
+    "unsafe_applied": 37,
+    "risk": 0.2313
+   },
+   "frozen": {
+    "allow_rate": 0.083,
+    "unsafe_applied": 2,
+    "risk": 0.2
+   }
+  },
+  "alpha=0.05/worst_group": {
+   "certified": true,
+   "tau": 0.058,
+   "test": {
+    "allow_rate": 0.195,
+    "unsafe_applied": 1,
+    "risk": 0.0085
+   },
+   "ood": {
+    "allow_rate": 0.267,
+    "unsafe_applied": 37,
+    "risk": 0.2313
+   },
+   "frozen": {
+    "allow_rate": 0.083,
+    "unsafe_applied": 2,
+    "risk": 0.2
+   }
+  },
+  "alpha=0.01/pooled": {
+   "certified": false
+  },
+  "alpha=0.01/worst_group": {
+   "certified": false
+  }
+ },
+ "minilm+LR": {
+  "alpha=0.1/pooled": {
+   "certified": true,
+   "tau": 0.5,
+   "test": {
+    "allow_rate": 0.64,
+    "unsafe_applied": 30,
+    "risk": 0.0781
+   },
+   "ood": {
+    "allow_rate": 0.682,
+    "unsafe_applied": 48,
+    "risk": 0.1174
+   },
+   "frozen": {
+    "allow_rate": 0.483,
+    "unsafe_applied": 11,
+    "risk": 0.1897
+   }
+  },
+  "alpha=0.1/worst_group": {
+   "certified": true,
+   "tau": 0.325,
+   "test": {
+    "allow_rate": 0.617,
+    "unsafe_applied": 22,
+    "risk": 0.0595
+   },
+   "ood": {
+    "allow_rate": 0.658,
+    "unsafe_applied": 43,
+    "risk": 0.1089
+   },
+   "frozen": {
+    "allow_rate": 0.458,
+    "unsafe_applied": 11,
+    "risk": 0.2
+   }
+  },
+  "alpha=0.05/pooled": {
+   "certified": true,
+   "tau": 0.27,
+   "test": {
+    "allow_rate": 0.613,
+    "unsafe_applied": 20,
+    "risk": 0.0543
+   },
+   "ood": {
+    "allow_rate": 0.657,
+    "unsafe_applied": 43,
+    "risk": 0.1091
+   },
+   "frozen": {
+    "allow_rate": 0.417,
+    "unsafe_applied": 8,
+    "risk": 0.16
+   }
+  },
+  "alpha=0.05/worst_group": {
+   "certified": true,
+   "tau": 0.098,
+   "test": {
+    "allow_rate": 0.532,
+    "unsafe_applied": 7,
+    "risk": 0.0219
+   },
+   "ood": {
+    "allow_rate": 0.608,
+    "unsafe_applied": 34,
+    "risk": 0.0932
+   },
+   "frozen": {
+    "allow_rate": 0.35,
+    "unsafe_applied": 6,
+    "risk": 0.1429
+   }
+  },
+  "alpha=0.01/pooled": {
+   "certified": false
+  },
+  "alpha=0.01/worst_group": {
+   "certified": false
+  }
+ },
+ "bge-small+LR": {
+  "alpha=0.1/pooled": {
+   "certified": true,
+   "tau": 0.5,
+   "test": {
+    "allow_rate": 0.64,
+    "unsafe_applied": 28,
+    "risk": 0.0729
+   },
+   "ood": {
+    "allow_rate": 0.743,
+    "unsafe_applied": 68,
+    "risk": 0.1525
+   },
+   "frozen": {
+    "allow_rate": 0.567,
+    "unsafe_applied": 14,
+    "risk": 0.2059
+   }
+  },
+  "alpha=0.1/worst_group": {
+   "certified": true,
+   "tau": 0.323,
+   "test": {
+    "allow_rate": 0.618,
+    "unsafe_applied": 20,
+    "risk": 0.0539
+   },
+   "ood": {
+    "allow_rate": 0.732,
+    "unsafe_applied": 61,
+    "risk": 0.139
+   },
+   "frozen": {
+    "allow_rate": 0.55,
+    "unsafe_applied": 12,
+    "risk": 0.1818
+   }
+  },
+  "alpha=0.05/pooled": {
+   "certified": true,
+   "tau": 0.32,
+   "test": {
+    "allow_rate": 0.617,
+    "unsafe_applied": 20,
+    "risk": 0.0541
+   },
+   "ood": {
+    "allow_rate": 0.732,
+    "unsafe_applied": 61,
+    "risk": 0.139
+   },
+   "frozen": {
+    "allow_rate": 0.55,
+    "unsafe_applied": 12,
+    "risk": 0.1818
+   }
+  },
+  "alpha=0.05/worst_group": {
+   "certified": true,
+   "tau": 0.092,
+   "test": {
+    "allow_rate": 0.582,
+    "unsafe_applied": 6,
+    "risk": 0.0172
+   },
+   "ood": {
+    "allow_rate": 0.72,
+    "unsafe_applied": 55,
+    "risk": 0.1273
+   },
+   "frozen": {
+    "allow_rate": 0.5,
+    "unsafe_applied": 8,
+    "risk": 0.1333
+   }
+  },
+  "alpha=0.01/pooled": {
+   "certified": true,
+   "tau": 0.02,
+   "test": {
+    "allow_rate": 0.512,
+    "unsafe_applied": 2,
+    "risk": 0.0065
+   },
+   "ood": {
+    "allow_rate": 0.702,
+    "unsafe_applied": 46,
+    "risk": 0.1093
+   },
+   "frozen": {
+    "allow_rate": 0.442,
+    "unsafe_applied": 7,
+    "risk": 0.1321
+   }
+  },
+  "alpha=0.01/worst_group": {
+   "certified": true,
+   "tau": 0.02,
+   "test": {
+    "allow_rate": 0.512,
+    "unsafe_applied": 2,
+    "risk": 0.0065
+   },
+   "ood": {
+    "allow_rate": 0.702,
+    "unsafe_applied": 46,
+    "risk": 0.1093
+   },
+   "frozen": {
+    "allow_rate": 0.442,
+    "unsafe_applied": 7,
+    "risk": 0.1321
+   }
+  }
+ }
+}

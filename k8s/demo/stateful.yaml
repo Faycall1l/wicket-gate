@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stateful-a
+  namespace: streaming-demo
+  labels:
+    app: stateful-a
+spec:
+  replicas: 1  # single writer: sequence gaps/resets are unambiguous
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: { maxSurge: 0, maxUnavailable: 1 }
+  selector:
+    matchLabels:
+      app: stateful-a
+  template:
+    metadata:
+      labels:
+        app: stateful-a
+    spec:
+      nodeSelector:
+        topology.network-orch/zone: edge-a
+      containers:
+        - name: stateful
+          image: python:3.12-alpine
+          command: ["python", "/app/app.py"]
+          ports:
+            - containerPort: 8080
+          env:
+            - { name: REDIS_HOST, value: "redis-anchor" }
+            - { name: STATE_KEY, value: "stateful:counter" }
+            - { name: IMPORT_ON_START, value: "1" }
+          readinessProbe:
+            httpGet: { path: /healthz, port: 8080 }
+            periodSeconds: 2
+          volumeMounts:
+            - { name: app, mountPath: /app }
+      volumes:
+        - name: app
+          configMap:
+            name: stateful-app
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: stateful
+  namespace: streaming-demo
+spec:
+  # Atomic re-anchor = patch selector stateful-a <-> stateful-b (one API call,
+  # mirrors Orchra's N2 switch after target pre-staging).
+  selector: { app: stateful-a }
+  ports:
+    - port: 8080
+      targetPort: 8080

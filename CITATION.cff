@@ -1,0 +1,8 @@
+cff-version: 1.2.0
+title: "wicket-gate: graded safety checks for LLM agents on edge clusters"
+message: "If you use this software, please cite it."
+authors:
+  - family-names: Amrouche
+    given-names: Faycal
+license: MIT
+repository-code: "https://github.com/Faycall1l/wicket-gate"

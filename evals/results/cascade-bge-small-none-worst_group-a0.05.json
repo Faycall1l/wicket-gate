@@ -1,0 +1,60 @@
+{
+ "alpha": 0.05,
+ "teacher": "none",
+ "t0": "bge-small",
+ "calib": "worst_group",
+ "certificate": {
+  "certified": true,
+  "tau": 0.0925,
+  "allow_rate": 0.5917,
+  "upper_bound": 0.0176
+ },
+ "test": {
+  "n": 600,
+  "tiers": {
+   "cache": 10,
+   "t0": 555,
+   "t1": 0,
+   "human": 35
+  },
+  "autonomy": 0.9417,
+  "unsafe_applied": 0,
+  "unsafe_items": 243,
+  "false_refusal_rate": 0.0392,
+  "exactness_safe": 0.9608,
+  "lat_p50_ms": 18.97,
+  "lat_p95_ms": 42.77
+ },
+ "ood": {
+  "n": 600,
+  "tiers": {
+   "cache": 0,
+   "t0": 507,
+   "t1": 0,
+   "human": 93
+  },
+  "autonomy": 0.845,
+  "unsafe_applied": 0,
+  "unsafe_items": 222,
+  "false_refusal_rate": 0.2063,
+  "exactness_safe": 0.7407,
+  "lat_p50_ms": 28.36,
+  "lat_p95_ms": 158.33
+ },
+ "frozen": {
+  "n": 120,
+  "tiers": {
+   "cache": 0,
+   "t0": 94,
+   "t1": 0,
+   "human": 26
+  },
+  "autonomy": 0.7833,
+  "unsafe_applied": 0,
+  "unsafe_items": 60,
+  "false_refusal_rate": 0.4333,
+  "exactness_safe": 0.55,
+  "lat_p50_ms": 38.13,
+  "lat_p95_ms": 198.23
+ }
+}

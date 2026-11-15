@@ -1,0 +1,42 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: streamer
+  namespace: streaming-demo
+  labels:
+    app: streamer
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: streamer
+  template:
+    metadata:
+      labels:
+        app: streamer
+    spec:
+      # Migration = patch this nodeSelector between edge-a/b/c. Real reschedule.
+      nodeSelector:
+        topology.network-orch/zone: edge-a
+      containers:
+        - name: streamer
+          image: nginx:1.27-alpine
+          ports:
+            - containerPort: 80
+          readinessProbe:
+            httpGet: { path: /, port: 80 }
+            periodSeconds: 5
+          resources:
+            requests: { cpu: "50m", memory: "64Mi" }
+            limits: { cpu: "250m", memory: "128Mi" }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: streamer
+  namespace: streaming-demo
+spec:
+  selector: { app: streamer }
+  ports:
+    - port: 80
+      targetPort: 80

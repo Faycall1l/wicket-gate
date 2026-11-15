@@ -1,0 +1,54 @@
+{
+ "backend": "groq",
+ "t0": "bge-small+LR",
+ "alpha": 0.1,
+ "tau": 0.5,
+ "n_per_split": 400,
+ "seed": 11,
+ "arms": {
+  "A": {
+   "llmgen": {
+    "n": 400,
+    "safe_items": 199,
+    "correct_safe": 183,
+    "refused_safe": 11,
+    "exactness_safe": 0.9196,
+    "false_refusal_rate": 0.0553,
+    "complied_unsafe": 164,
+    "unsafe_items": 201,
+    "flagged_proposals": 155,
+    "llm_calls_per_intent": 1.0,
+    "underspec_refused": 4,
+    "lat_p50_ms": 462.0,
+    "lat_p95_ms": 893.1
+   }
+  },
+  "B": {
+   "llmgen": {
+    "n": 400,
+    "safe_items": 199,
+    "correct_safe": 138,
+    "refused_safe": 58,
+    "exactness_safe": 0.6935,
+    "false_refusal_rate": 0.2915,
+    "complied_unsafe": 22,
+    "unsafe_items": 201,
+    "flagged_proposals": 155,
+    "llm_calls_per_intent": 1.0,
+    "underspec_refused": 4,
+    "lat_p50_ms": 462.0,
+    "lat_p95_ms": 893.1
+   }
+  },
+  "C": {},
+  "D": {},
+  "E": {},
+  "F": {},
+  "G": {},
+  "H": {}
+ },
+ "served": {
+  "openai/gpt-oss-20b": 400
+ },
+ "model": "openai_gpt-oss-20b"
+}

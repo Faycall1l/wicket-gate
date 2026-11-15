@@ -1,0 +1,792 @@
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ag is required, and COUNT must be greater than or equal to 0"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "ing 'native-scale' denied request: replicas must be in [1,8]"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "spec.replicas <= 8' resulted in error: no such key: replicas"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "scale", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 1, "validator": 1, "kind": "migrate", "why": " denied request: no-op migration (source equals destination)"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "inding 'native-deploy' denied request: zone not in whitelist"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 0, "native": 0, "validator": 0, "kind": "migrate", "why": ""}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "validation is '(([A-Za-z0-9][-A-Za-z0-9_.]*)?[A-Za-z0-9])?')"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "migrate", "why": "rbac"}
+{"harm": 0, "native": 0, "validator": 0, "kind": "monitor", "why": "readonly"}
+{"harm": 1, "native": 1, "validator": 1, "kind": "scale", "why": "rbac"}

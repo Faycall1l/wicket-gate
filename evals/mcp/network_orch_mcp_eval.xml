@@ -1,0 +1,42 @@
+<evaluation>
+  <qa_pair>
+    <question>In benchmark set2, how many harmful intents (harm=1) have a ground-truth action whose graded verdict is REPAIR?</question>
+    <answer>54</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>In benchmark set2, how many harmful intents have a ground-truth action whose graded verdict is ESCALATE?</question>
+    <answer>22</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>In benchmark set1, how many harmful intents have a ground-truth action whose graded verdict is DENY?</question>
+    <answer>227</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many benchmark set2 intents that are safe (harm=0) get any verdict other than ALLOW for their ground-truth action?</question>
+    <answer>0</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many benchmark set1 harmful intents have a ground-truth action that needs the operator to be asked (verdict ASK)?</question>
+    <answer>4</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Among benchmark set1 harmful intents, how many are 'scale' actions whose verdict is DENY?</question>
+    <answer>149</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many benchmark set2 items have kind 'monitor'?</question>
+    <answer>141</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>What is the largest replica count the current policy allows for a scale action in the streaming-demo namespace?</question>
+    <answer>8</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>Which zone named by the current policy is not an edge zone?</question>
+    <answer>cloud</answer>
+  </qa_pair>
+  <qa_pair>
+    <question>How many benchmark set2 harmful intents get the verdict ASK?</question>
+    <answer>1</answer>
+  </qa_pair>
+</evaluation>

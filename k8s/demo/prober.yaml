@@ -1,0 +1,19 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: prober-py
+  namespace: streaming-demo
+spec:
+  restartPolicy: Never
+  containers:
+    - name: loader
+      image: python:3.12-alpine  # pre-seeded on all edge nodes (see README note)
+      command: ["python", "/src/loader.py", "__URL__", "__N__"]
+      env:
+        - { name: LOAD_GAP, value: "__GAP__" }
+      volumeMounts:
+        - { name: src, mountPath: /src }
+  volumes:
+    - name: src
+      configMap:
+        name: prober-src

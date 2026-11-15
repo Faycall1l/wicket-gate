@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1560 951" font-family="Helvetica, Arial, sans-serif" fill="#1b1f2a">
+<rect width="1560" height="951" fill="#fbfaf7"/>
+<text x="40" y="48" font-size="26" font-weight="700">Where 400 unseen intents end up</text>
+<text x="40" y="76" font-size="16" fill="#6b7080">graded checks in front of gpt-oss-20b, each applied action run on a real cluster</text>
+<path d="M352 110.0C626.0 110.0 626.0 110.0 900 110.0V166.6C626.0 166.6 626.0 166.6 352 166.6Z" fill="#b4532a" fill-opacity="0.45"/>
+<path d="M352 166.6C626.0 166.6 626.0 484.8 900 484.8V492.0C626.0 492.0 626.0 173.8 352 173.8Z" fill="#b4532a" fill-opacity="0.45"/>
+<path d="M352 173.8C626.0 173.8 626.0 532.8 900 532.8V560.3C626.0 560.3 626.0 201.4 352 201.4Z" fill="#b4532a" fill-opacity="0.45"/>
+<path d="M352 201.4C626.0 201.4 626.0 594.3 900 594.3V787.1C626.0 787.1 626.0 394.2 352 394.2Z" fill="#b4532a" fill-opacity="0.45"/>
+<path d="M352 464.2C626.0 464.2 626.0 166.6 900 166.6V450.8C626.0 450.8 626.0 748.4 352 748.4Z" fill="#2f6f6a" fill-opacity="0.45"/>
+<path d="M352 748.4C626.0 748.4 626.0 492.0 900 492.0V495.0C626.0 495.0 626.0 751.4 352 751.4Z" fill="#2f6f6a" fill-opacity="0.45"/>
+<path d="M352 749.9C626.0 749.9 626.0 787.1 900 787.1V797.3C626.0 797.3 626.0 760.0 352 760.0Z" fill="#2f6f6a" fill-opacity="0.45"/>
+<rect x="330" y="110.0" width="22" height="284.2" fill="#b4532a"/>
+<text x="314" y="248.1" text-anchor="end" font-size="30" font-weight="700" fill="#b4532a">196</text>
+<text x="314" y="274.1" text-anchor="end" font-size="16" fill="#6b7080">harmful intents</text>
+<rect x="330" y="464.2" width="22" height="295.8" fill="#2f6f6a"/>
+<text x="314" y="608.1" text-anchor="end" font-size="30" font-weight="700" fill="#2f6f6a">204</text>
+<text x="314" y="634.1" text-anchor="end" font-size="16" fill="#6b7080">safe intents</text>
+<rect x="900" y="110.0" width="22" height="340.8" fill="#1b1f2a"/>
+<text x="940" y="278.4" font-size="26" font-weight="700">235 <tspan font-size="20" font-weight="400">applied</tspan></text>
+<text x="940" y="302.4" font-size="15" fill="#6b7080">0 of 39 harmful-intent actions harmed the cluster</text>
+<rect x="900" y="484.8" width="22" height="14.0" fill="#1b1f2a"/>
+<text x="940" y="489.8" font-size="26" font-weight="700">6 <tspan font-size="20" font-weight="400">asked</tspan></text>
+<text x="940" y="513.8" font-size="15" fill="#6b7080">operator clarifies a missing or ambiguous parameter</text>
+<rect x="900" y="532.8" width="22" height="27.6" fill="#1b1f2a"/>
+<text x="940" y="544.5" font-size="26" font-weight="700">19 <tspan font-size="20" font-weight="400">escalated</tspan></text>
+<text x="940" y="568.5" font-size="15" fill="#6b7080">scale to zero waits for approval</text>
+<rect x="900" y="594.3" width="22" height="203.0" fill="#1b1f2a"/>
+<text x="940" y="693.8" font-size="26" font-weight="700">140 <tspan font-size="20" font-weight="400">denied</tspan></text>
+<text x="940" y="717.8" font-size="15" fill="#6b7080">protected namespace or agent refusal</text>
+<text x="40" y="921" font-size="14" fill="#6b7080">4 proposals were applied only after a repair retry. Intents are LLM-written; harm is rejection, protected write or not ready in 60 s.</text>
+</svg>

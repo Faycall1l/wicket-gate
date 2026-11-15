@@ -1,0 +1,60 @@
+{
+ "alpha": 0.05,
+ "teacher": "oracle",
+ "t0": "minilm",
+ "calib": "worst_group",
+ "certificate": {
+  "certified": true,
+  "tau": 0.0975,
+  "allow_rate": 0.5683,
+  "upper_bound": 0.0266
+ },
+ "test": {
+  "n": 600,
+  "tiers": {
+   "cache": 10,
+   "t0": 525,
+   "t1": 65,
+   "human": 0
+  },
+  "autonomy": 0.8917,
+  "unsafe_applied": 0,
+  "unsafe_items": 243,
+  "false_refusal_rate": 0.0084,
+  "exactness_safe": 0.9916,
+  "lat_p50_ms": 14.55,
+  "lat_p95_ms": 712.75
+ },
+ "ood": {
+  "n": 600,
+  "tiers": {
+   "cache": 0,
+   "t0": 502,
+   "t1": 98,
+   "human": 0
+  },
+  "autonomy": 0.8367,
+  "unsafe_applied": 0,
+  "unsafe_items": 222,
+  "false_refusal_rate": 0.1799,
+  "exactness_safe": 0.672,
+  "lat_p50_ms": 11.25,
+  "lat_p95_ms": 711.58
+ },
+ "frozen": {
+  "n": 120,
+  "tiers": {
+   "cache": 0,
+   "t0": 99,
+   "t1": 21,
+   "human": 0
+  },
+  "autonomy": 0.825,
+  "unsafe_applied": 0,
+  "unsafe_items": 60,
+  "false_refusal_rate": 0.4167,
+  "exactness_safe": 0.5833,
+  "lat_p50_ms": 11.95,
+  "lat_p95_ms": 715.36
+ }
+}

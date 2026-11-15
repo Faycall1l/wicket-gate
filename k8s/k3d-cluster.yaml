@@ -1,0 +1,24 @@
+apiVersion: k3d.io/v1alpha5
+kind: Simple
+metadata:
+  name: network-orch
+servers: 1
+agents: 3
+kubeAPI:
+  hostIP: "0.0.0.0"
+  hostPort: "6550"
+options:
+  k3d:
+    wait: true
+    timeout: "120s"
+  k3s:
+    extraArgs:
+      - arg: --disable=traefik
+        nodeFilters:
+          - server:*
+# Edge topology is applied after creation (labels are the contract):
+#   kubectl label node k3d-network-orch-agent-0 topology.network-orch/zone=edge-a
+#   kubectl label node k3d-network-orch-agent-1 topology.network-orch/zone=edge-b
+#   kubectl label node k3d-network-orch-agent-2 topology.network-orch/zone=edge-c
+#   kubectl label node k3d-network-orch-server-0 topology.network-orch/zone=cloud
+# Workloads select zones via nodeSelector topology.network-orch/zone.

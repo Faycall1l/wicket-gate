@@ -1,0 +1,60 @@
+{
+ "alpha": 0.1,
+ "feedback": 0.1,
+ "gamma": 0.005,
+ "tau0": 0.09,
+ "phases": {
+  "static": {
+   "test": {
+    "n": 600,
+    "allowed": 135,
+    "unsafe_allowed": 6,
+    "risk": 0.0444,
+    "allow_rate": 0.225,
+    "tau_end": 0.09
+   },
+   "ood": {
+    "n": 600,
+    "allowed": 206,
+    "unsafe_allowed": 46,
+    "risk": 0.2233,
+    "allow_rate": 0.3433,
+    "tau_end": 0.09
+   },
+   "frozen": {
+    "n": 120,
+    "allowed": 19,
+    "unsafe_allowed": 3,
+    "risk": 0.1579,
+    "allow_rate": 0.1583,
+    "tau_end": 0.09
+   }
+  },
+  "adaptive": {
+   "test": {
+    "n": 600,
+    "allowed": 139,
+    "unsafe_allowed": 6,
+    "risk": 0.0432,
+    "allow_rate": 0.2317,
+    "tau_end": 0.096
+   },
+   "ood": {
+    "n": 600,
+    "allowed": 199,
+    "unsafe_allowed": 45,
+    "risk": 0.2261,
+    "allow_rate": 0.3317,
+    "tau_end": 0.0795
+   },
+   "frozen": {
+    "n": 120,
+    "allowed": 15,
+    "unsafe_allowed": 3,
+    "risk": 0.2,
+    "allow_rate": 0.125,
+    "tau_end": 0.075
+   }
+  }
+ }
+}

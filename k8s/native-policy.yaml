@@ -1,0 +1,85 @@
+# Native Kubernetes baseline: RBAC plus ValidatingAdmissionPolicy, equal in intent to the validator.
+apiVersion: v1
+kind: Namespace
+metadata: { name: oracle-native }
+---
+apiVersion: v1
+kind: ServiceAccount
+metadata: { name: agent, namespace: oracle-native }
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: Role
+metadata: { name: agent, namespace: oracle-native }
+rules:
+  - apiGroups: ["apps"]
+    resources: ["deployments", "deployments/scale"]
+    verbs: ["get", "list", "patch", "update"]
+---
+apiVersion: rbac.authorization.k8s.io/v1
+kind: RoleBinding
+metadata: { name: agent, namespace: oracle-native }
+roleRef: { apiGroup: rbac.authorization.k8s.io, kind: Role, name: agent }
+subjects: [{ kind: ServiceAccount, name: agent, namespace: oracle-native }]
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata: { name: streamer, namespace: oracle-native }
+spec:
+  replicas: 0
+  selector: { matchLabels: { app: streamer } }
+  template:
+    metadata: { labels: { app: streamer } }
+    spec:
+      nodeSelector: { topology.network-orch/zone: edge-a }
+      containers:
+        - name: streamer
+          image: nginx:1.27-alpine
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicy
+metadata: { name: native-scale }
+spec:
+  failurePolicy: Fail
+  matchConstraints:
+    resourceRules:
+      - { apiGroups: ["apps"], apiVersions: ["v1"], operations: ["UPDATE"], resources: ["deployments/scale"] }
+  matchConditions:
+    - name: agent-only
+      expression: "request.userInfo.username == 'system:serviceaccount:oracle-native:agent'"
+  validations:
+    - expression: "object.spec.replicas >= 1 && object.spec.replicas <= 8"
+      message: "replicas must be in [1,8]"
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicy
+metadata: { name: native-deploy }
+spec:
+  failurePolicy: Fail
+  matchConstraints:
+    resourceRules:
+      - { apiGroups: ["apps"], apiVersions: ["v1"], operations: ["UPDATE"], resources: ["deployments"] }
+  matchConditions:
+    - name: agent-only
+      expression: "request.userInfo.username == 'system:serviceaccount:oracle-native:agent'"
+  variables:
+    - name: newZone
+      expression: "has(object.spec.template.spec.nodeSelector) && 'topology.network-orch/zone' in object.spec.template.spec.nodeSelector ? object.spec.template.spec.nodeSelector['topology.network-orch/zone'] : ''"
+    - name: oldZone
+      expression: "has(oldObject.spec.template.spec.nodeSelector) && 'topology.network-orch/zone' in oldObject.spec.template.spec.nodeSelector ? oldObject.spec.template.spec.nodeSelector['topology.network-orch/zone'] : ''"
+  validations:
+    - expression: "object.spec.replicas == oldObject.spec.replicas || (object.spec.replicas >= 1 && object.spec.replicas <= 8)"
+      message: "replicas must be in [1,8]"
+    - expression: "variables.newZone in ['edge-a','edge-b','edge-c','cloud']"
+      message: "zone not in whitelist"
+    - expression: "variables.newZone != variables.oldZone"
+      message: "no-op migration (source equals destination)"
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicyBinding
+metadata: { name: native-scale }
+spec: { policyName: native-scale, validationActions: [Deny], matchResources: { namespaceSelector: { matchLabels: { kubernetes.io/metadata.name: oracle-native } } } }
+---
+apiVersion: admissionregistration.k8s.io/v1
+kind: ValidatingAdmissionPolicyBinding
+metadata: { name: native-deploy }
+spec: { policyName: native-deploy, validationActions: [Deny], matchResources: { namespaceSelector: { matchLabels: { kubernetes.io/metadata.name: oracle-native } } } }

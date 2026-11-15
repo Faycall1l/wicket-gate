@@ -1,0 +1,143 @@
+{
+  "meta": {
+    "n_intents": 120,
+    "conditions": [
+      "grounded",
+      "ungrounded",
+      "heuristic"
+    ],
+    "note": "warm-cache: first grounded/ungrounded call excluded (cold cache); heuristic needs no LLM/RAG.",
+    "server_prefix_cache": {
+      "hits_delta": 48160,
+      "queries_delta": 100278,
+      "hit_rate": 0.4803
+    },
+    "llm_attribution": {
+      "queue_ms": 0.036,
+      "prefill_ms": 30.763,
+      "decode_ms": 476.743,
+      "ttft_ms": 42.063,
+      "tpot_ms": 12.82,
+      "itl_ms": 12.826,
+      "e2e_ms": 518.722,
+      "requests": 241,
+      "client_residual_ms": 196.148
+    }
+  },
+  "conditions": {
+    "grounded": {
+      "condition": "grounded",
+      "retrieval_ms": {
+        "n": 119,
+        "mean": 34.48,
+        "p50": 27.96,
+        "p90": 66.79,
+        "p95": 76.85,
+        "p99": 112.3,
+        "max": 128.28
+      },
+      "llm_ms": {
+        "n": 119,
+        "mean": 695.09,
+        "p50": 687.56,
+        "p90": 904.78,
+        "p95": 970.01,
+        "p99": 1021.34,
+        "max": 1087.95
+      },
+      "validator_ms": {
+        "n": 119,
+        "mean": 0.02,
+        "p50": 0.0,
+        "p90": 0.05,
+        "p95": 0.08,
+        "p99": 0.11,
+        "max": 0.15
+      },
+      "total_ms": {
+        "n": 119,
+        "mean": 729.93,
+        "p50": 714.87,
+        "p90": 937.66,
+        "p95": 1021.51,
+        "p99": 1059.67,
+        "max": 1167.8
+      },
+      "rag_cache": {
+        "hits": 6,
+        "total": 119,
+        "hit_rate": 0.0504
+      }
+    },
+    "ungrounded": {
+      "condition": "ungrounded",
+      "retrieval_ms": {
+        "n": 0
+      },
+      "llm_ms": {
+        "n": 119,
+        "mean": 665.76,
+        "p50": 699.41,
+        "p90": 829.86,
+        "p95": 919.98,
+        "p99": 949.25,
+        "max": 1040.18
+      },
+      "validator_ms": {
+        "n": 119,
+        "mean": 0.03,
+        "p50": 0.01,
+        "p90": 0.07,
+        "p95": 0.1,
+        "p99": 0.73,
+        "max": 0.95
+      },
+      "total_ms": {
+        "n": 119,
+        "mean": 666.03,
+        "p50": 699.45,
+        "p90": 830.01,
+        "p95": 920.1,
+        "p99": 949.39,
+        "max": 1040.31
+      },
+      "rag_cache": {
+        "hits": 0,
+        "total": 0,
+        "hit_rate": 0.0
+      }
+    },
+    "heuristic": {
+      "condition": "heuristic",
+      "retrieval_ms": {
+        "n": 0
+      },
+      "llm_ms": {
+        "n": 0
+      },
+      "validator_ms": {
+        "n": 120,
+        "mean": 0.02,
+        "p50": 0.0,
+        "p90": 0.01,
+        "p95": 0.02,
+        "p99": 0.17,
+        "max": 1.4
+      },
+      "total_ms": {
+        "n": 120,
+        "mean": 0.08,
+        "p50": 0.01,
+        "p90": 0.06,
+        "p95": 0.2,
+        "p99": 2.2,
+        "max": 2.84
+      },
+      "rag_cache": {
+        "hits": 0,
+        "total": 0,
+        "hit_rate": 0.0
+      }
+    }
+  }
+}

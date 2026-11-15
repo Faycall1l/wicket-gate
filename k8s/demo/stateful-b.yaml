@@ -1,0 +1,41 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: stateful-b
+  namespace: streaming-demo
+  labels:
+    app: stateful-b
+spec:
+  replicas: 0  # scaled to 1 only when pre-staging the migration target
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: { maxSurge: 0, maxUnavailable: 1 }
+  selector:
+    matchLabels:
+      app: stateful-b
+  template:
+    metadata:
+      labels:
+        app: stateful-b
+    spec:
+      nodeSelector:
+        topology.network-orch/zone: edge-b
+      containers:
+        - name: stateful
+          image: python:3.12-alpine
+          command: ["python", "/app/app.py"]
+          ports:
+            - containerPort: 8080
+          env:
+            - { name: REDIS_HOST, value: "redis-anchor" }
+            - { name: STATE_KEY, value: "stateful:counter" }
+            - { name: IMPORT_ON_START, value: "1" }
+          readinessProbe:
+            httpGet: { path: /healthz, port: 8080 }
+            periodSeconds: 2
+          volumeMounts:
+            - { name: app, mountPath: /app }
+      volumes:
+        - name: app
+          configMap:
+            name: stateful-app
